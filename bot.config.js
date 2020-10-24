@@ -1,9 +1,9 @@
 const linebot = require('linebot');
 
 var bot = linebot({
-    channelId: '1618026870',
-    channelSecret: '8e170d86cc7c73029a0a9133b23ddf06',
-    channelAccessToken: 'rT9w3gEB1qOmnP8GEU5YoVJFEoxl9fdD7MxdoormSdo/MiYMN5DZvUO8wOxPB/r6dLuo46wGMx/34kFhP4VYWB5RaV9mCv940auIf2aUPPrK5GsvPzIiMLQg9SOeqhxiyWw3QmpVOwZhoVvt2Wa8YgdB04t89/1O/w1cDnyilFU='
-  });
+    channelId: '1655108455',
+    channelSecret: '4b0449ab7319c0a47eadaad98e4afc86',
+    channelAccessToken: 'OQKrdnyadXNvK4AsIT5w1laebecczXqiGf9Zu3Bts/G6L2RXlkGID4QiJk1pJrC/LZTYaInuJjXJUTw116HR72liugFRZAVgkWOSL18CiK8jo8MDWpDBgq/kUrNImmV/PrFRRGUdIq94OtXKngg0VgdB04t89/1O/w1cDnyilFU=',
+})
 
 module.exports = bot

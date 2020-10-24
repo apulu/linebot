@@ -1,11 +1,12 @@
 const linebot = require('linebot');
 const express = require('express');
+const mongoose = require('mongoose');
 const linebotParser = require('./bot.event')
 
 // Connect to MongoDB
 mongoose
   .connect(
-    'mongodb://test:test123@ds113495.mlab.com:13495/ninja-hattori',
+    'mongodb+srv://test:QlTwLrqBrNwWf4si@cluster0.aslrj.mongodb.net/test?retryWrites=true&w=majority',
     { useNewUrlParser: true }
   )
   .then(() => console.log('MongoDB Connected'))
