@@ -6,11 +6,17 @@
   "scripts": {
     "start": "node index.js"
   },
+  
+  "engines": {
+    "node": ">=14 <15"
+  },
+  
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "linebot": "^1.6.1",
     "mongoose": "^5.10.10"
+    
   }
 }
